@@ -6,7 +6,7 @@ module.exports = {
         "password": config.DB_PASSWORD,
         "database": config.DB_DATABASE,
         "host": config.DB_HOST,
-        "dialect": config.DB_DIALECT,
+        "dialect": config.DB_DIALECT || 'mysql',
         "port": config.DB_PORT
     },
     "test": {
@@ -14,7 +14,7 @@ module.exports = {
     "password": config.DB_PASSWORD_TEST,
     "database": config.DB_DATABASE_TEST,
     "host": config.DB_HOST_TEST,
-    "dialect": config.DB_DIALECT_TEST,
+    "dialect": config.DB_DIALECT_TEST || 'mysql',
     "port": config.DB_PORT_TEST
 },
 
@@ -23,7 +23,7 @@ module.exports = {
         "password": config.DB_PASSWORD_PROD,
         "database": config.DB_DATABASE_PROD,
         "host": config.DB_HOST_PROD,
-        "dialect": config.DB_DIALECT_PROD,
+        "dialect": config.DB_DIALECT_PROD || 'mysql',
         "port": config.DB_PORT_PROD
     }
 }
