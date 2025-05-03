@@ -34,7 +34,7 @@ app.use('/api', indexRouter);
 
 app.use('/api/users',
     basicAuth({
-        users: { 'dmt': 'projecttracking' }
+        users: { 'admin': 'admin' }
     }),
     usersRouter
 );
