@@ -10,13 +10,14 @@ module.exports = {
         "port": config.DB_PORT
     },
     "test": {
-        "username": config.DB_USERNAME_TEST,
-        "password": config.DB_PASSWORD_TEST,
-        "database": config.DB_DATABASE_TEST,
-        "host": config.DB_HOST_TEST,
-        "dialect": config.DB_DIALECT_TEST,
-        "port": config.DB_PORT_TEST
-    },
+    "username": config.DB_USERNAME_TEST,
+    "password": config.DB_PASSWORD_TEST,
+    "database": config.DB_DATABASE_TEST,
+    "host": config.DB_HOST_TEST,
+    "dialect": config.DB_DIALECT_TEST,
+    "port": config.DB_PORT_TEST
+},
+
     "production": {
         "username": config.DB_USERNAME_PROD,
         "password": config.DB_PASSWORD_PROD,
